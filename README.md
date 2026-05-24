@@ -102,7 +102,7 @@ nta1,2016-12-26 22,dropoff,5,Staten Island,900,0,SI22,West New Brighton-New Brig
 
 ### 区域信息文件
 
-nyc_ntas_codes_20260519.csv： 将纽约市一共划分为了 2000 个中等规模的区域（一个区域称为一个 NTA）。
+nyc_ntas_codes_20260519.csv： 将纽约市一共划分为了 2000 个中等规模的区域（一个区域称为一个 NTA,Neighborhood Tabulation Areas[^ntadef]）, 为什么我们使用 NTA 作为划分方法？[#1](https://github.com/chatopera/nrh_dataset_2016/issues/1)。
 
 记录更多关于区域的信息： 
 
@@ -121,3 +121,5 @@ nta1,SI22,West New Brighton-New Brighton-St. George,5,Staten Island,000900,7729.
 nrh_ntas_spatial_adj_1_slim.csv
 
 矩阵格式：Ntas 之间的距离，单位是： 米。 行和列都是索引。一个行的索引和一个列的索引，都是 Nta Id, 是对应的两个区域，那么矩阵上的这个值，就是二者之间的中心点的直线距离。
+
+[^ntadef]: Neighborhood Tabulation Areas (NTAs) are medium-sized statistical geographies used in New York City to report data from the Decennial Census and American Community Survey (ACS).
