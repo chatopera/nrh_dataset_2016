@@ -2,6 +2,9 @@
 
 本数据集 NRH Dataset 2016, 是 NYCZ RideHailings Dataset 2016 的缩写，可用于训练城市交通预测的机器学习模型，比如某个小时内，某个区域的出租车上车人数和下车人数，比如使用 ST-GCN, ST-MGCN 等算法。
 
+本数据集，是根据纽约市政府发布的 TLC Taxi 数据集 2016 整理制作的：1）清洗模糊数据；2）增加 POI 信息；3）增加天气信息；4）按区域和时间重新计算数据，更方便进入算法训练。
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## 数据集官方站点
 
