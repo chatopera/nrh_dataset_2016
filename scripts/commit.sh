@@ -20,4 +20,4 @@ export DATE_WITH_TIME=`date "+%Y%m%d-%H%M%S"` #add %3N as we want millisecond to
 cd $baseDir/..
 git add --all
 git commit -m "Update contents"
-git push origin master
+git push origin main
